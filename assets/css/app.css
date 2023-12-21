@@ -3,3 +3,30 @@
 @import "tailwindcss/utilities";
 
 /* This file is for your main application CSS */
+.phx-connected {
+    @apply w-full h-full m-0 p-0;
+}
+
+live-view {
+    @apply w-full h-full m-0 p-0;
+}
+
+.widget-container {
+    @apply bg-gray-400
+           rounded-lg
+           shadow-lg
+           flex flex-col w-6/12;
+}
+
+.widget-row {
+    @apply  flex flex-row items-center justify-center;
+            ;
+}
+
+.widget {
+    @apply border border-gray-200 p-12 bg-white h-64 m-4 text-3xl;
+}
+
+.circle {
+    @apply absolute w-16 h-16 rounded-full bg-blue-500 text-white text-2xl flex items-center justify-center;
+}

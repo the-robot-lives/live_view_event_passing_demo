@@ -8,6 +8,7 @@ defmodule LiveViewEventPassingDemoWeb.Router do
     plug :put_root_layout, html: {LiveViewEventPassingDemoWeb.Layouts, :root}
     plug :protect_from_forgery
     plug :put_secure_browser_headers
+    plug LiveViewEventPassingDemo.OTP.LiveViewDispatcher.Plug
   end
 
   pipeline :api do

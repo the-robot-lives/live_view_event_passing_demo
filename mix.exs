@@ -19,7 +19,7 @@ defmodule LiveViewEventPassingDemo.MixProject do
   def application do
     [
       mod: {LiveViewEventPassingDemo.Application, []},
-      extra_applications: [:logger, :runtime_tools]
+      extra_applications: [:logger, :runtime_tools, :syn]
     ]
   end
 
@@ -47,7 +47,11 @@ defmodule LiveViewEventPassingDemo.MixProject do
       {:gettext, "~> 0.20"},
       {:jason, "~> 1.2"},
       {:dns_cluster, "~> 0.1.1"},
-      {:plug_cowboy, "~> 2.5"}
+      {:plug_cowboy, "~> 2.5"},
+
+      #
+      {:syn, "~> 3.3"},
+      { :elixir_uuid, "~> 1.2" }
     ]
   end
 

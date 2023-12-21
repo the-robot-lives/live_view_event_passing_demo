@@ -11,6 +11,7 @@ defmodule LiveViewEventPassingDemo.Application do
       LiveViewEventPassingDemoWeb.Telemetry,
       {DNSCluster, query: Application.get_env(:live_view_event_passing_demo, :dns_cluster_query) || :ignore},
       {Phoenix.PubSub, name: LiveViewEventPassingDemo.PubSub},
+      {LiveViewEventPassingDemo.OTP.LiveViewDispatcher, []},
       # Start the Finch HTTP client for sending emails
       {Finch, name: LiveViewEventPassingDemo.Finch},
       # Start a worker by calling: LiveViewEventPassingDemo.Worker.start_link(arg)
