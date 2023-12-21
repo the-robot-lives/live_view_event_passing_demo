@@ -45,13 +45,13 @@ The `LiveViewEventPassingDemo.OTP.LiveViewDispatcher.Plug` module is a Plug that
 
 ## Example Screens
 
-![img.png](readme\img.png)
+![img.png](readme/img.png)
 
-![img_1.png](readme\img_1.png)
+![img_1.png](readme/img_1.png)
 
-![img_2.png](readme\img_2.png)
+![img_2.png](readme/img_2.png)
 
-![img_3.png](readme\img_3.png)
+![img_3.png](readme/img_3.png)
 
 
 ## Conclusion
